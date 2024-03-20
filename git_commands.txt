@@ -1,0 +1,12 @@
+git config --global user.name <username>
+git config --global user.email <email_id>
+
+git init .				# to start a working directory for git
+git status				# provides the info about tracking of files in Working directory
+git add <filename>			# to move files from Workspace to Stage Area
+git commit -m "<message>"		# to commit (move files from stage area to Local Repository
+git log					# provides list of commits happened in working directory
+git diff				# shows differences between workspace and Commits
+git diff --staged			# shows differences between Stage area and commits
+git log --oneline			# to show commits in oneline
+vi .gitignore				# helps to ignore files from tracking
